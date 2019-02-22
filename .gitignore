@@ -1,0 +1,5 @@
+./logs
+./node_modules
+./pinpoint-node-agent
+.jshintrc
+.vscode/
