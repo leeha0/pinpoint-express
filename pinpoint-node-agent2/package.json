@@ -1,0 +1,53 @@
+{
+  "name": "pinpoint-node-agent",
+  "version": "2.2.1",
+  "description": "pinpoint node agent",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "amqp-rpc": "0.0.8",
+    "async-listener": "^0.6.3",
+    "bluebird": "^3.4.6",
+    "continuation-local-storage": "^3.1.7",
+    "cpu-usage": "^0.1.0",
+    "emitter-listener": "^1.0.1",
+    "express": "^4.16.4",
+    "later": "^1.2.0",
+    "lodash": "^4.13.1",
+    "log4js": "^0.6.36",
+    "moment": "^2.13.0",
+    "node-int64": "^0.4.0",
+    "node-schedule": "^1.1.1",
+    "pidusage": "^1.0.7",
+    "shelljs": "^0.7.0",
+    "shimmer": "^1.1.0",
+    "stack-trace": "^0.0.9",
+    "thrift": "^0.9.3",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "rewire": "^2.5.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peaksnail/pinpoint-node-agent.git"
+  },
+  "homepage": "https://github.com/peaksnail/pinpoint-node-agent#readme",
+  "keywords": [
+    "pinpoint",
+    "node",
+    "apm"
+  ],
+  "author": "psnail",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peaksnail/pinpoint-node-agent/issues"
+  }
+}

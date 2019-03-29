@@ -1,0 +1,248 @@
+[2019-03-07 10:48:11.797] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 10:48:11.801] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 10:48:11.802] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 10:48:11.803] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 10:48:11.804] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 10:48:11.804] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 10:48:11.804] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 10:48:11.806] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21474,"agentVersion":"1","vmVersion":"1","startTimestamp":1551923291797,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 10:48:11.810] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 10:48:11.816] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 10:48:11.816] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923291797,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:48:11.816] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923291797,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:48:11.817] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 10:48:11.817] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923291797,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:48:11.817] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923291797,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:48:11.817] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 10:48:11.818] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923291797,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:48:11.818] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923291797,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:48:11.818] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 10:48:11.818] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 10:48:11.819] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 10:48:11.908] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21474,heap mem is: 1501560832
+[2019-03-07 10:48:11.913] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 10:48:11.939] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 10:48:12.265] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 10:48:12.267] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 10:48:12.495] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 10:48:12.497] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:48:12.497] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:48:12.497] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:48:12.497] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:51:54.756] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 10:51:54.758] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 10:51:54.759] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 10:51:54.760] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 10:51:54.760] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 10:51:54.760] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 10:51:54.761] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 10:51:54.762] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21515,"agentVersion":"1","vmVersion":"1","startTimestamp":1551923514756,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 10:51:54.764] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 10:51:54.767] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 10:51:54.767] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923514756,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:51:54.767] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923514756,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:51:54.768] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 10:51:54.768] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923514756,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:51:54.768] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923514756,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:51:54.768] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 10:51:54.768] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923514756,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:51:54.769] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923514756,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:51:54.769] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 10:51:54.769] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 10:51:54.769] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 10:51:54.820] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21515,heap mem is: 1501560832
+[2019-03-07 10:51:54.824] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 10:51:54.838] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 10:51:55.000] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 10:51:55.002] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 10:51:55.160] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 10:51:55.161] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:51:55.162] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:51:55.162] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:51:55.162] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:58:03.504] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 10:58:03.507] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 10:58:03.507] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 10:58:03.508] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 10:58:03.508] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 10:58:03.509] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 10:58:03.509] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 10:58:03.510] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21559,"agentVersion":"1","vmVersion":"1","startTimestamp":1551923883504,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 10:58:03.512] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 10:58:03.515] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 10:58:03.516] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923883504,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:58:03.516] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923883504,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:58:03.516] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 10:58:03.516] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923883504,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:58:03.516] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923883504,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:58:03.517] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 10:58:03.517] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923883504,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:58:03.517] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923883504,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:58:03.517] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 10:58:03.517] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 10:58:03.518] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 10:58:03.570] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21559,heap mem is: 1501560832
+[2019-03-07 10:58:03.574] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 10:58:03.589] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 10:58:03.739] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 10:58:03.740] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 10:58:03.896] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 10:58:03.897] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:58:03.897] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:58:03.898] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:58:03.898] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:19.213] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 10:59:19.215] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 10:59:19.216] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 10:59:19.217] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 10:59:19.217] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 10:59:19.217] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 10:59:19.217] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 10:59:19.219] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21571,"agentVersion":"1","vmVersion":"1","startTimestamp":1551923959213,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 10:59:19.221] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 10:59:19.224] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 10:59:19.224] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923959213,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:59:19.224] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923959213,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923959213,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923959213,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923959213,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923959213,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:59:19.225] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 10:59:19.226] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 10:59:19.226] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 10:59:19.276] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21571,heap mem is: 1501560832
+[2019-03-07 10:59:19.280] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 10:59:19.294] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 10:59:19.446] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 10:59:19.448] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 10:59:19.596] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 10:59:19.597] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:19.597] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:19.597] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:19.597] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:37.367] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 10:59:37.370] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 10:59:37.370] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 10:59:37.371] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 10:59:37.371] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 10:59:37.372] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 10:59:37.372] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 10:59:37.373] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21576,"agentVersion":"1","vmVersion":"1","startTimestamp":1551923977367,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 10:59:37.375] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 10:59:37.379] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 10:59:37.379] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923977367,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:59:37.379] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923977367,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 10:59:37.379] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923977367,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923977367,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551923977367,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551923977367,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 10:59:37.380] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 10:59:37.381] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 10:59:37.433] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21576,heap mem is: 1501560832
+[2019-03-07 10:59:37.440] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 10:59:37.459] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 10:59:37.640] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 10:59:37.641] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 10:59:37.852] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 10:59:37.853] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:37.854] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:37.854] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 10:59:37.854] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:00:17.126] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 11:00:17.128] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 11:00:17.129] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 11:00:17.129] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 11:00:17.130] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 11:00:17.130] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 11:00:17.130] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 11:00:17.131] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21585,"agentVersion":"1","vmVersion":"1","startTimestamp":1551924017125,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 11:00:17.134] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 11:00:17.137] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 11:00:17.137] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551924017125,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 11:00:17.137] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551924017125,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 11:00:17.138] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 11:00:17.138] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551924017125,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 11:00:17.138] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551924017125,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 11:00:17.138] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 11:00:17.138] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551924017125,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 11:00:17.138] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551924017125,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 11:00:17.139] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 11:00:17.139] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 11:00:17.139] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 11:00:17.192] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21585,heap mem is: 1501560832
+[2019-03-07 11:00:17.196] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 11:00:17.211] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 11:00:17.367] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 11:00:17.369] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 11:00:17.617] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 11:00:17.618] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:00:17.618] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:00:17.618] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:00:17.618] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:30:43.928] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 11:30:43.931] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 11:30:43.931] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 11:30:43.932] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 11:30:43.932] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 11:30:43.932] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 11:30:43.932] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 11:30:43.934] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":21726,"agentVersion":"1","vmVersion":"1","startTimestamp":1551925843928,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 11:30:43.937] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 11:30:43.940] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 11:30:43.940] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551925843928,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 11:30:43.940] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551925843928,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 11:30:43.940] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 11:30:43.941] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551925843928,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 11:30:43.941] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551925843928,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 11:30:43.941] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 11:30:43.941] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551925843928,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 11:30:43.941] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551925843928,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 11:30:43.941] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 11:30:43.942] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 11:30:43.942] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 11:30:43.995] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 21726,heap mem is: 1501560832
+[2019-03-07 11:30:43.999] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 11:30:44.014] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 11:30:44.167] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 11:30:44.169] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 11:30:44.312] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 11:30:44.313] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:30:44.313] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:30:44.313] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:30:44.313] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:46:15.730] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-07 11:46:15.732] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-07 11:46:15.733] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-07 11:46:15.733] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-07 11:46:15.734] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-07 11:46:15.734] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-07 11:46:15.734] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-07 11:46:15.735] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":22479,"agentVersion":"1","vmVersion":"1","startTimestamp":1551926775729,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-07 11:46:15.737] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-07 11:46:15.740] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-07 11:46:15.741] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551926775729,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 11:46:15.741] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551926775729,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-07 11:46:15.741] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-07 11:46:15.741] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551926775729,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 11:46:15.741] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551926775729,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-07 11:46:15.741] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-07 11:46:15.742] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551926775729,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 11:46:15.742] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551926775729,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-07 11:46:15.742] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-07 11:46:15.742] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-07 11:46:15.742] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-07 11:46:15.796] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 22479,heap mem is: 1501560832
+[2019-03-07 11:46:15.801] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/app.js, false
+[2019-03-07 11:46:15.821] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-07 11:46:15.978] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/health.js, false
+[2019-03-07 11:46:15.981] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express - express, /Users/we/Workspace/node-work/ws-tour-api/routes/api.js, false
+[2019-03-07 11:46:16.164] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-07 11:46:16.168] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:46:16.169] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:46:16.169] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-07 11:46:16.169] [INFO] [ws-tour-api]  [libs/pinpoint-node-agent/agent/socket/tcp_client] message request success!

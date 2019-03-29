@@ -1,0 +1,472 @@
+[2019-03-04 15:02:52.367] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 15:02:52.370] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 15:02:52.371] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 15:02:52.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 15:02:52.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 15:02:52.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 15:02:52.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 15:02:52.374] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":97835,"agentVersion":"1","vmVersion":"1","startTimestamp":1551679372366,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 15:02:52.379] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 15:02:52.403] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 15:02:52.404] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551679372366,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:02:52.404] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551679372366,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:02:52.406] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 15:02:52.406] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551679372366,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:02:52.407] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551679372366,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:02:52.407] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 15:02:52.407] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551679372366,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:02:52.407] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551679372366,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:02:52.407] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 15:02:52.408] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 15:02:52.408] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 15:02:52.493] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 97835,heap mem is: 1501560832
+[2019-03-04 15:02:52.500] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 15:02:52.528] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 15:02:53.082] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for https
+[2019-03-04 15:02:53.754] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 15:02:53.755] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:02:53.756] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:02:53.756] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:02:53.756] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:02:53.764] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:02:53.765] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 15:02:53.765] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:02:53.765] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 15:02:53.765] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:02:53.765] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 15:20:07.520] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 15:20:07.522] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 15:20:07.523] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 15:20:07.524] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 15:20:07.524] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 15:20:07.524] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 15:20:07.524] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 15:20:07.525] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":97895,"agentVersion":"1","vmVersion":"1","startTimestamp":1551680407519,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 15:20:07.528] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 15:20:07.537] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 15:20:07.537] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551680407519,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:20:07.538] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551680407519,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:20:07.538] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 15:20:07.538] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551680407519,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:20:07.538] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551680407519,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:20:07.538] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 15:20:07.539] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551680407519,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:20:07.539] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551680407519,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:20:07.539] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 15:20:07.539] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 15:20:07.539] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 15:20:07.599] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 97895,heap mem is: 1501560832
+[2019-03-04 15:20:07.606] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 15:20:07.628] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 15:20:08.997] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 15:20:08.998] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:20:08.999] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:20:08.999] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:20:08.999] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:20:09.007] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:20:09.008] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 15:20:09.012] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:20:09.013] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 15:20:09.013] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:20:09.013] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 15:34:01.074] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 15:34:01.077] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 15:34:01.077] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 15:34:01.078] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 15:34:01.078] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 15:34:01.079] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 15:34:01.079] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 15:34:01.080] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":97995,"agentVersion":"1","vmVersion":"1","startTimestamp":1551681241073,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 15:34:01.082] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 15:34:01.086] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 15:34:01.087] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551681241073,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:34:01.087] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551681241073,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:34:01.088] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 15:34:01.088] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551681241073,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:34:01.088] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551681241073,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:34:01.088] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 15:34:01.088] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551681241073,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:34:01.088] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551681241073,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:34:01.089] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 15:34:01.089] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 15:34:01.089] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 15:34:01.140] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 97995,heap mem is: 1501560832
+[2019-03-04 15:34:01.145] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 15:34:01.162] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 15:34:02.017] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 15:34:02.018] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:34:02.018] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:34:02.019] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:34:02.019] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:34:02.027] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:34:02.027] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 15:34:02.028] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:34:02.028] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 15:34:02.028] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:34:02.028] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 15:34:45.290] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 15:34:45.293] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 15:34:45.294] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 15:34:45.295] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 15:34:45.296] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 15:34:45.297] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 15:34:45.298] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 15:34:45.299] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98003,"agentVersion":"1","vmVersion":"1","startTimestamp":1551681285289,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 15:34:45.302] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 15:34:47.915] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 15:34:47.916] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551681285289,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:34:47.917] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551681285289,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 15:34:47.918] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 15:34:47.918] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551681285289,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:34:47.919] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551681285289,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 15:34:47.919] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 15:34:47.920] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551681285289,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:34:47.920] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551681285289,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 15:34:47.921] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 15:34:47.922] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 15:34:47.922] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 15:34:48.090] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98003,heap mem is: 1501560832
+[2019-03-04 15:34:48.095] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 15:34:48.168] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 15:35:10.792] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 15:35:10.794] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:35:10.795] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:35:10.796] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:35:10.798] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 15:35:10.810] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:35:10.812] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 15:35:10.813] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:35:10.814] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 15:35:10.814] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 15:35:10.815] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:09:01.842] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:09:01.845] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:09:01.846] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:09:01.847] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:09:01.848] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:09:01.849] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:09:01.850] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:09:01.852] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98189,"agentVersion":"1","vmVersion":"1","startTimestamp":1551683341842,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:09:01.855] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:09:01.900] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:09:01.900] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683341842,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:09:01.901] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683341842,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:09:01.901] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:09:01.902] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683341842,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:09:01.902] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683341842,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:09:01.903] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:09:01.903] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683341842,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:09:01.904] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683341842,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:09:01.904] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:09:01.905] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:09:01.905] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:09:03.767] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98189,heap mem is: 1501560832
+[2019-03-04 16:09:03.771] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:09:04.615] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:10:59.289] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:10:59.291] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:10:59.292] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:10:59.294] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:10:59.295] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:10:59.309] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:10:59.310] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:10:59.312] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:10:59.312] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:10:59.313] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:10:59.314] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:12:08.587] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:12:08.591] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:12:08.591] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:12:08.593] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:12:08.594] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:12:08.594] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:12:08.595] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:12:08.597] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98208,"agentVersion":"1","vmVersion":"1","startTimestamp":1551683528587,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:12:08.599] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:12:08.648] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:12:08.648] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683528587,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:12:08.649] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683528587,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:12:08.650] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:12:08.650] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683528587,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:12:08.651] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683528587,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:12:08.651] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:12:08.652] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683528587,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:12:08.652] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683528587,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:12:08.653] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:12:08.654] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:12:08.654] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:12:10.860] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98208,heap mem is: 1501560832
+[2019-03-04 16:12:10.865] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:12:11.735] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:12:30.824] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:12:30.826] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:12:30.828] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:12:30.829] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:12:30.831] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:12:30.847] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:12:30.848] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:12:30.849] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:12:30.850] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:12:30.851] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:12:30.852] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:15:53.464] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:15:53.466] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:15:53.467] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:15:53.468] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:15:53.468] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:15:53.468] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:15:53.468] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:15:53.470] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98235,"agentVersion":"1","vmVersion":"1","startTimestamp":1551683753464,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:15:53.472] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:15:53.478] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:15:53.478] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683753464,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:15:53.478] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683753464,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:15:53.478] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:15:53.479] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683753464,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:15:53.479] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683753464,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:15:53.479] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:15:53.479] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683753464,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:15:53.479] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683753464,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:15:53.479] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:15:53.480] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:15:53.480] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:15:53.561] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98235,heap mem is: 1501560832
+[2019-03-04 16:15:53.566] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:15:53.590] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:15:54.642] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:15:54.643] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:15:54.643] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:15:54.643] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:15:54.644] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:15:54.650] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:15:54.650] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:15:54.651] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:15:54.651] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:15:54.651] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:15:54.651] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:16:11.874] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:16:11.877] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:16:11.877] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:16:11.878] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:16:11.878] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:16:11.878] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:16:11.879] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:16:11.880] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98241,"agentVersion":"1","vmVersion":"1","startTimestamp":1551683771874,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:16:11.883] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:16:11.889] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:16:11.889] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683771874,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:16:11.889] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683771874,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:16:11.889] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:16:11.889] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683771874,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683771874,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683771874,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683771874,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:16:11.890] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:16:11.977] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98241,heap mem is: 1501560832
+[2019-03-04 16:16:11.982] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:16:12.008] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:16:13.090] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:16:13.091] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:13.091] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:13.091] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:13.091] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:13.095] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:16:13.096] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:16:13.096] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:16:13.096] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:16:13.096] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:16:13.097] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:16:45.561] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:16:45.563] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:16:45.564] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:16:45.565] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:16:45.565] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:16:45.565] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:16:45.565] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:16:45.567] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98251,"agentVersion":"1","vmVersion":"1","startTimestamp":1551683805561,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:16:45.569] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:16:45.572] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:16:45.572] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683805561,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:16:45.572] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683805561,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:16:45.573] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:16:45.573] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683805561,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:16:45.573] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683805561,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:16:45.573] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:16:45.574] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683805561,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:16:45.574] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683805561,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:16:45.574] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:16:45.574] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:16:45.574] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:16:45.626] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98251,heap mem is: 1501560832
+[2019-03-04 16:16:45.631] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:16:45.648] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:16:46.409] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:16:46.410] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:46.410] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:46.411] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:46.411] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:16:46.415] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:16:46.416] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:16:46.417] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:16:46.417] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:16:46.420] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:16:46.420] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:18:08.362] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:18:08.368] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:18:08.370] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:18:08.371] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:18:08.371] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:18:08.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:18:08.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:18:08.373] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98269,"agentVersion":"1","vmVersion":"1","startTimestamp":1551683888362,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:18:08.378] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:18:08.389] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:18:08.389] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683888362,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:18:08.389] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683888362,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:18:08.390] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:18:08.390] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683888362,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:18:08.390] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683888362,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:18:08.390] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:18:08.391] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551683888362,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:18:08.391] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551683888362,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:18:08.391] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:18:08.391] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:18:08.391] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:18:08.486] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98269,heap mem is: 1501560832
+[2019-03-04 16:18:08.492] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:18:08.512] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:18:08.956] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:18:09.284] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:18:09.286] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:18:09.376] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:18:09.431] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:18:09.431] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:18:09.432] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:18:09.432] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:18:09.432] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:18:09.437] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:18:09.437] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:18:09.438] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:18:09.438] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:18:09.440] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:18:09.440] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:22:00.845] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:22:00.848] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:22:00.849] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:22:00.850] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:22:00.850] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:22:00.851] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:22:00.851] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:22:00.852] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98308,"agentVersion":"1","vmVersion":"1","startTimestamp":1551684120845,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:22:00.855] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:22:00.860] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:22:00.861] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551684120845,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:22:00.861] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551684120845,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:22:00.861] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:22:00.862] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551684120845,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:22:00.862] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551684120845,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:22:00.862] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:22:00.862] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551684120845,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:22:00.862] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551684120845,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:22:00.863] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:22:00.863] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:22:00.863] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:22:00.941] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98308,heap mem is: 1501560832
+[2019-03-04 16:22:00.946] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:22:00.969] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:22:01.592] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:22:01.949] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:22:01.952] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:22:02.064] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:22:02.187] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:22:02.188] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:22:02.188] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:22:02.188] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:22:02.188] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:22:02.198] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:22:02.198] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:22:02.199] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:22:02.199] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:22:02.199] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:22:02.200] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:23:28.930] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:23:28.933] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:23:28.934] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:23:28.936] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:23:28.937] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:23:28.937] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:23:28.938] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:23:28.940] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98321,"agentVersion":"1","vmVersion":"1","startTimestamp":1551684208930,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:23:28.944] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:23:28.994] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:23:28.994] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551684208930,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:23:28.995] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551684208930,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:23:28.996] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:23:28.997] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551684208930,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:23:28.997] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551684208930,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:23:28.998] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:23:28.998] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551684208930,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:23:28.999] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551684208930,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:23:28.999] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:23:29.000] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:23:29.001] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:23:30.769] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98321,heap mem is: 1501560832
+[2019-03-04 16:23:30.774] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:23:31.563] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:24:03.496] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:24:04.012] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:25:51.334] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:37:15.015] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:38:10.555] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 16:38:10.563] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:38:10.568] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:38:10.572] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:38:10.576] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 16:38:10.588] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:38:10.589] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 16:38:10.590] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:38:10.591] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 16:38:10.591] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 16:38:10.592] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!
+[2019-03-04 16:43:44.693] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start pinpoint node agent
+[2019-03-04 16:43:44.696] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init tcp client
+[2019-03-04 16:43:44.697] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] use tcp server 127.0.0.1:9994
+[2019-03-04 16:43:44.698] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] init udp client in local process
+[2019-03-04 16:43:44.699] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9996
+[2019-03-04 16:43:44.700] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/udp_client] use udp server 127.0.0.1:9995
+[2019-03-04 16:43:44.700] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending agent info to collector
+[2019-03-04 16:43:44.701] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"hostname":"WMP-2018050001.local","ip":"10.102.41.33","ports":"1","agentId":"ws-tour-api","applicationName":"ws-tour-api","serviceType":1000,"pid":98564,"agentVersion":"1","vmVersion":"1","startTimestamp":1551685424693,"endTimestamp":null,"endStatus":null,"serverMetaData":null,"jvmInfo":null,"applicationServiceType":1000}
+[2019-03-04 16:43:44.704] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start to hack module load
+[2019-03-04 16:43:44.749] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] sending api info to collector
+[2019-03-04 16:43:44.749] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551685424693,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:43:44.750] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551685424693,"apiId":0,"apiInfo":"express/Route.get()","line":null,"type":null}
+[2019-03-04 16:43:44.751] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0
+[2019-03-04 16:43:44.752] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551685424693,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:43:44.752] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551685424693,"apiId":1,"apiInfo":"callback()","line":null,"type":null}
+[2019-03-04 16:43:44.753] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1
+[2019-03-04 16:43:44.754] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] api info: {"agentId":"ws-tour-api","agentStartTime":1551685424693,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:43:44.754] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] [TcpClient][send] {"agentId":"ws-tour-api","agentStartTime":1551685424693,"apiId":2,"apiInfo":"rabbitMQClient()","line":null,"type":null}
+[2019-03-04 16:43:44.755] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2
+[2019-03-04 16:43:44.755] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] load sampler: TrueSampler
+[2019-03-04 16:43:44.756] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/agent] start agent stat collector in local process
+[2019-03-04 16:43:46.663] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/metric/agent_stat_monitor] get current process info,pid is: 98564,heap mem is: 1501560832
+[2019-03-04 16:43:46.668] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:43:47.516] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/trace/trace_context] use trace context setTimeout to handle trace data
+[2019-03-04 16:44:19.372] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 16:44:19.873] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 17:05:24.589] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 17:05:33.856] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/commons/module/module_load] add plugin for express
+[2019-03-04 17:05:47.512] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] build connection success
+[2019-03-04 17:05:47.520] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 17:05:47.526] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 17:05:47.531] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 17:05:47.536] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/socket/tcp_client] message request success!
+[2019-03-04 17:05:47.549] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 17:05:47.550] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 1 response!
+[2019-03-04 17:05:47.552] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 17:05:47.553] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 2 response!
+[2019-03-04 17:05:47.553] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] receive control response
+[2019-03-04 17:05:47.554] [INFO] [ws-tour-api]  [Users/we/Workspace/node-work/pinpoint-node-agent/agent/utils/packet_util] request id: 0 response!

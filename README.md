@@ -47,11 +47,25 @@ express pinpoint-express
 git clone https://github.com/peaksnail/pinpoint-node-agent.git
 ```
 ```javascript
-// pinpoint-node-agent/agent/plugins/core/express/api.js
-module.exports = {
-'express.Router.get': '',
-'express.application.handle': ''
-};
+# pinpoint-node-agent/agent/plugins/core/express/wrap.js
+
+# AS-IS
+var original_callback = arguments[0];
+
+var callback = interceptor(original_callback, express0Route0get);
+var args = [callback];
+var ret = original_Route_get.apply(this, args);
+return ret;
+
+
+# TO-BE
+let args = [];
+for (let original_callback of arguments) {
+   const callback = interceptor(original_callback, express0Route0get);
+   args.push(callback);
+}
+return original_Route_get.apply(this, args);
+
 ```
 * start application
 ```
